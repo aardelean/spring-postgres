@@ -1,0 +1,15 @@
+server:
+  port: 8180
+  contextPath:  /api
+spring:
+  application:
+    name: templates-api
+  datasource:
+    url:  jdbc:postgresql://localhost:5432/test_apis
+    driver: com.postgresql.Driver
+    username: postgres
+    password: password
+    platform: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
